@@ -1,0 +1,45 @@
+<!-- car_classifier/templates/result.html
+<h2>Car Brand Prediction Result:</h2>
+<p>The predicted brand is: {{ brand_prediction }}</p> -->
+<!-- car_classifier/templates/result.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Brand Prediction Result</title>
+    <!-- Add Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .result-container {
+            max-width: 400px;
+            margin: auto;
+            margin-top: 50px;
+        }
+        .result-card {
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container result-container">
+    <h2 class="text-center">Car Brand Prediction Result</h2>
+    <div class="result-card">
+        <p class="lead">The predicted brand is: {{ brand_prediction }}</p>
+    </div>
+</div>
+
+<!-- Optional: Add Bootstrap JS and Popper.js links -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>

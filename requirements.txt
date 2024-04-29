@@ -1,0 +1,11 @@
+# Django==3.2.9
+# tensorflow==2.7.0
+# keras==2.8.0
+# Pillow==8.4.0
+# requests==2.26.0
+
+Django==3.2.9
+tensorflow==2.16.1
+keras==3.0.0
+Pillow==8.4.0
+requests==2.26.0

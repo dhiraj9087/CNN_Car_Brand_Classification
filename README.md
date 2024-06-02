@@ -51,4 +51,7 @@ Alternatively, you can use Docker to containerize the application. Run `docker-c
 
 Contributions are welcome! Feel free to fork this repository, make changes, and submit pull requests.
 
+## License
+
+This project is licensed under the [MIT] License
 
